@@ -1,0 +1,117 @@
+(footprint "CAP_POLAR_L2.5D0.8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65778811-d0e0-4d0b-abaf-1741c7296ed4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CAP_POLAR_L2.5D0.8"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "81962e62-b97d-45c4-b778-e3a04d85b556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54b8791b-e8f5-484f-bb42-dd3e2b0e2647")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ce68307-0677-4fee-8c9a-2d51abdea8cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9200f60-35f7-4975-8888-3712c9a1202b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.45 -1.25)
+		(end -0.95 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5a25c10-fbee-46a5-8ba5-e8f479b15a30")
+	)
+	(fp_line
+		(start -1.2 -1.5)
+		(end -1.2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f34ca65-6f61-4035-9df5-fcc3d52ff2aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "633715b3-330e-41c1-9366-5bcf1122e4e6")
+	)
+	(pad "1" thru_hole circle
+		(at -1.2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c40e5a82-394f-4bf0-ab97-72f27b3affac")
+	)
+	(pad "2" thru_hole circle
+		(at 1.2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4f54458-2aca-4ab2-8384-e9236151bc6e")
+	)
+)

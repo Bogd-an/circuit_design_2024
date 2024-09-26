@@ -427,9 +427,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "My_Library",
+      "Pr2"
+    ],
     "pinned_symbol_libs": [
-      "My_Library"
+      "My_Library",
+      "Pr2"
     ]
   },
   "meta": {

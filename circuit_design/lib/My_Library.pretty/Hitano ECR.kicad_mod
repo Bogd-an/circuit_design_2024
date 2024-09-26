@@ -1,0 +1,86 @@
+(footprint "Hitano ECR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6541d690-3531-4241-8228-714f477d4254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Hitano ECR"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "523c5089-8d88-448d-a578-dad1c244c5e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3fcc74f-e37b-42f6-b627-d1de9ae450ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97524834-dbb1-4d53-9f29-2e1e3f177bf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c06bb5f-9ed3-4695-85aa-ea666f011874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c06ac97a-fec1-45c8-90b2-1cbef4a6f55b")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d62e44b9-cb8c-480b-ba38-5492eb036140")
+	)
+)
