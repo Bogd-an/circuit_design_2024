@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RES_VAR_WH148"
-		(at 0 -9.5 0)
+		(at 0 -8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6f5465ad-d2cb-4171-a9c3-a9e4315ebe62")

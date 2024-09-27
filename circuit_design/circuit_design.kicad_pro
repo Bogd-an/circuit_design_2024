@@ -429,11 +429,13 @@
   "libraries": {
     "pinned_footprint_libs": [
       "My_Library",
-      "Pr2"
+      "Pr2",
+      "Pr3"
     ],
     "pinned_symbol_libs": [
       "My_Library",
-      "Pr2"
+      "Pr2",
+      "Pr3"
     ]
   },
   "meta": {
