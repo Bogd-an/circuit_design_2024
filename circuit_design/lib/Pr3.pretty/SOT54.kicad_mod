@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SOT54"
-		(at -0.1 -6.5 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "fa82724a-789a-4027-8028-5169f60138c7")
