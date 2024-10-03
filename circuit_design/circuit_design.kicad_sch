@@ -5,38 +5,37 @@
 	(uuid "936cfab9-3290-4713-92ea-50f992466908")
 	(paper "A4")
 	(lib_symbols
-		(symbol "My_Library:Resistor"
+		(symbol "Pr4:К155ЛА3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R1"
-				(at 2.54 0.6351 0)
+			(property "Reference" "DD"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "~"
-				(at 2.54 -1.27 0)
+			(property "Value" ""
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "My_Library:Resistor"
-				(at -3.81 7.874 0)
+			(property "Footprint" "Pr4:К155ЛА3"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +44,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,24 +52,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resistor_0_1"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "К155ЛА3_1_1"
 				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
+					(start -3.89 5)
+					(end 4.11 -5)
 					(stroke
 						(width 0)
 						(type default)
+						(color 128 0 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Resistor_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
+				(text "&"
+					(at 0.11 0 0)
+					(effects
+						(font
+							(face "Times New Roman")
+							(size 3 3)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -85,10 +100,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at 2.65 8.89 180)
+					(length 5) hide
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -103,68 +136,73 @@
 						)
 					)
 				)
+				(pin input inverted
+					(at 9.11 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.65 11.43 180)
+					(length 5) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 90.17 64.77) (xy 90.17 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35760b51-e248-46dc-a6cb-7e1c001fac30")
-	)
-	(wire
-		(pts
-			(xy 90.17 74.93) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5954de02-ab51-4693-9a25-15af30e6b9b4")
-	)
-	(wire
-		(pts
-			(xy 86.36 64.77) (xy 90.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75599654-0d97-4f92-98ba-ca869f973d64")
-	)
 	(symbol
-		(lib_id "My_Library:Resistor")
-		(at 86.36 69.85 0)
+		(lib_id "Pr4:К155ЛА3")
+		(at 68.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ed54d40-6f19-486b-b723-5634f317fd1b")
-		(property "Reference" "R1"
-			(at 85.09 69.85 0)
+		(fields_autoplaced yes)
+		(uuid "e7e4d2cb-7ed4-4c9c-a131-e287bac320b4")
+		(property "Reference" "DD1"
+			(at 68.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 71.12 0)
+			(at 68.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "My_Library:Resistor"
-			(at 82.55 61.976 0)
+		(property "Footprint" "Pr4:К155ЛА3"
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 69.85 0)
+			(at 68.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 69.85 0)
+			(at 68.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,16 +228,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6dbb176a-0774-4ca5-99c3-cb65eb50a085")
+		(pin "14"
+			(uuid "4336f6b9-f31c-47ec-a2f6-34ce6e4ab943")
 		)
 		(pin "1"
-			(uuid "7a718d94-3650-4874-beed-1dcc65a0fc9e")
+			(uuid "06418ee3-82c8-43e1-895a-d07c19a6b061")
+		)
+		(pin "2"
+			(uuid "e3c36d16-4f0f-4b51-8556-8507fffc82bd")
+		)
+		(pin "3"
+			(uuid "3600403d-c044-4b4a-8788-fe2dc5cc736a")
+		)
+		(pin "7"
+			(uuid "b0bfb3ba-8e97-4e53-b736-57c61c926f46")
 		)
 		(instances
 			(project ""
 				(path "/936cfab9-3290-4713-92ea-50f992466908"
-					(reference "R1")
+					(reference "DD1")
 					(unit 1)
 				)
 			)
