@@ -431,13 +431,15 @@
       "My_Library",
       "Pr2",
       "Pr3",
-      "Pr4"
+      "Pr4",
+      "Pr5"
     ],
     "pinned_symbol_libs": [
       "My_Library",
       "Pr2",
       "Pr3",
-      "Pr4"
+      "Pr4",
+      "Pr5"
     ]
   },
   "meta": {
@@ -587,7 +589,7 @@
   "sheets": [
     [
       "936cfab9-3290-4713-92ea-50f992466908",
-      "Кореневий"
+      "Root"
     ]
   ],
   "text_variables": {}

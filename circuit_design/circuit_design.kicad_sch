@@ -52,14 +52,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "К155ЛА3_1_1"
 				(rectangle
 					(start -3.89 5)
@@ -93,24 +85,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.65 8.89 180)
-					(length 5) hide
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,17 +128,230 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 2.65 11.43 180)
-					(length 5) hide
-					(name "GND"
+			)
+			(symbol "К155ЛА3_2_1"
+				(rectangle
+					(start -3.89 5)
+					(end 4.11 -5)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "&"
+					(at 0.11 0 0)
+					(effects
+						(font
+							(face "Times New Roman")
+							(size 3 3)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 9.11 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "К155ЛА3_3_1"
+				(rectangle
+					(start -3.89 5)
+					(end 4.11 -5)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "&"
+					(at 0.11 0 0)
+					(effects
+						(font
+							(face "Times New Roman")
+							(size 3 3)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 9.11 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "К155ЛА3_4_1"
+				(rectangle
+					(start -3.89 5)
+					(end 4.11 -5)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "&"
+					(at 0.11 0 0)
+					(effects
+						(font
+							(face "Times New Roman")
+							(size 3 3)
+						)
+					)
+				)
+				(pin input inverted
+					(at 9.11 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -177,16 +364,16 @@
 	)
 	(symbol
 		(lib_id "Pr4:К155ЛА3")
-		(at 68.58 71.12 0)
-		(unit 1)
+		(at 72.39 102.87 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7e4d2cb-7ed4-4c9c-a131-e287bac320b4")
+		(uuid "013716b5-58f6-4636-b0c2-b96ac8784225")
 		(property "Reference" "DD1"
-			(at 68.69 62.23 0)
+			(at 72.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +381,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.69 64.77 0)
+			(at 72.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +389,7 @@
 			)
 		)
 		(property "Footprint" "Pr4:К155ЛА3"
-			(at 68.58 78.74 0)
+			(at 72.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 66.04 0)
+			(at 72.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 66.04 0)
+			(at 72.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,26 +415,341 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
-			(uuid "4336f6b9-f31c-47ec-a2f6-34ce6e4ab943")
+		(pin "2"
+			(uuid "938c46fe-34cf-4a04-98b6-102d5710c7ba")
+		)
+		(pin "6"
+			(uuid "7f090c9e-13b8-4dd2-a1a8-ebe35d8dd857")
 		)
 		(pin "1"
-			(uuid "06418ee3-82c8-43e1-895a-d07c19a6b061")
+			(uuid "0cacb488-134c-4221-9ee8-9d983a4d4bd3")
 		)
-		(pin "2"
-			(uuid "e3c36d16-4f0f-4b51-8556-8507fffc82bd")
+		(pin "13"
+			(uuid "2cb6cf45-b7e7-4398-bdce-725b268bd4f6")
 		)
 		(pin "3"
-			(uuid "3600403d-c044-4b4a-8788-fe2dc5cc736a")
+			(uuid "680eebcb-a935-4a4a-902a-0767ef84aee3")
 		)
-		(pin "7"
-			(uuid "b0bfb3ba-8e97-4e53-b736-57c61c926f46")
+		(pin "5"
+			(uuid "82fb216c-03c5-4cc4-9ae9-599a80915c07")
+		)
+		(pin "10"
+			(uuid "a5caa0bc-ef50-4194-8254-acd72721479a")
+		)
+		(pin "8"
+			(uuid "5cfc5c98-3103-4f09-81f9-a709f7ab968f")
+		)
+		(pin "9"
+			(uuid "ddd7e644-15f0-4048-9478-7b49e70160bc")
+		)
+		(pin "11"
+			(uuid "88c43ac0-77f5-4bd2-8c2b-3d51afe0d410")
+		)
+		(pin "4"
+			(uuid "f0ebaaf1-e499-4373-9e36-56b7091c1fa8")
+		)
+		(pin "12"
+			(uuid "71879266-a489-4757-8476-66f4bc6fd9fe")
+		)
+		(instances
+			(project "circuit_design"
+				(path "/936cfab9-3290-4713-92ea-50f992466908"
+					(reference "DD1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pr4:К155ЛА3")
+		(at 72.39 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f96e0a6-2a99-4049-89cd-41961c036a13")
+		(property "Reference" "DD1"
+			(at 72.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pr4:К155ЛА3"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b5899be-9cb8-4697-9fee-2ca31dc1d9d3")
+		)
+		(pin "6"
+			(uuid "7f090c9e-13b8-4dd2-a1a8-ebe35d8dd857")
+		)
+		(pin "1"
+			(uuid "78074db3-89fe-4c0d-987e-a38f90c72a8d")
+		)
+		(pin "13"
+			(uuid "2cb6cf45-b7e7-4398-bdce-725b268bd4f6")
+		)
+		(pin "3"
+			(uuid "6e8468ac-ebbc-4fea-a842-96baffff9151")
+		)
+		(pin "5"
+			(uuid "82fb216c-03c5-4cc4-9ae9-599a80915c07")
+		)
+		(pin "10"
+			(uuid "a5caa0bc-ef50-4194-8254-acd72721479a")
+		)
+		(pin "8"
+			(uuid "5cfc5c98-3103-4f09-81f9-a709f7ab968f")
+		)
+		(pin "9"
+			(uuid "ddd7e644-15f0-4048-9478-7b49e70160bc")
+		)
+		(pin "11"
+			(uuid "88c43ac0-77f5-4bd2-8c2b-3d51afe0d410")
+		)
+		(pin "4"
+			(uuid "f0ebaaf1-e499-4373-9e36-56b7091c1fa8")
+		)
+		(pin "12"
+			(uuid "71879266-a489-4757-8476-66f4bc6fd9fe")
 		)
 		(instances
 			(project ""
 				(path "/936cfab9-3290-4713-92ea-50f992466908"
 					(reference "DD1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pr4:К155ЛА3")
+		(at 72.39 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30cb6f9-fadf-43ac-bce9-d3fb59c34f8b")
+		(property "Reference" "DD1"
+			(at 72.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pr4:К155ЛА3"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76a19cc4-715a-42e8-bc20-50e3faefaed9")
+		)
+		(pin "6"
+			(uuid "7f090c9e-13b8-4dd2-a1a8-ebe35d8dd857")
+		)
+		(pin "1"
+			(uuid "f3168d02-70d7-4df9-b11e-4ea6d0972c1a")
+		)
+		(pin "13"
+			(uuid "2cb6cf45-b7e7-4398-bdce-725b268bd4f6")
+		)
+		(pin "3"
+			(uuid "cfa3826e-c7cb-4590-bf7b-17c604c16239")
+		)
+		(pin "5"
+			(uuid "82fb216c-03c5-4cc4-9ae9-599a80915c07")
+		)
+		(pin "10"
+			(uuid "a5caa0bc-ef50-4194-8254-acd72721479a")
+		)
+		(pin "8"
+			(uuid "5cfc5c98-3103-4f09-81f9-a709f7ab968f")
+		)
+		(pin "9"
+			(uuid "ddd7e644-15f0-4048-9478-7b49e70160bc")
+		)
+		(pin "11"
+			(uuid "88c43ac0-77f5-4bd2-8c2b-3d51afe0d410")
+		)
+		(pin "4"
+			(uuid "f0ebaaf1-e499-4373-9e36-56b7091c1fa8")
+		)
+		(pin "12"
+			(uuid "71879266-a489-4757-8476-66f4bc6fd9fe")
+		)
+		(instances
+			(project "circuit_design"
+				(path "/936cfab9-3290-4713-92ea-50f992466908"
+					(reference "DD1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pr4:К155ЛА3")
+		(at 72.39 118.11 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5aa53b2-9f47-4857-9f88-7b4c0490674e")
+		(property "Reference" "DD1"
+			(at 72.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pr4:К155ЛА3"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b7f5aef-56fb-4d68-8cf6-ec1ac91a4680")
+		)
+		(pin "6"
+			(uuid "7f090c9e-13b8-4dd2-a1a8-ebe35d8dd857")
+		)
+		(pin "1"
+			(uuid "cbf0f785-2098-4500-a792-ef067444e70b")
+		)
+		(pin "13"
+			(uuid "2cb6cf45-b7e7-4398-bdce-725b268bd4f6")
+		)
+		(pin "3"
+			(uuid "55a3b089-eeea-4908-9a09-4241d0f7256d")
+		)
+		(pin "5"
+			(uuid "82fb216c-03c5-4cc4-9ae9-599a80915c07")
+		)
+		(pin "10"
+			(uuid "a5caa0bc-ef50-4194-8254-acd72721479a")
+		)
+		(pin "8"
+			(uuid "5cfc5c98-3103-4f09-81f9-a709f7ab968f")
+		)
+		(pin "9"
+			(uuid "ddd7e644-15f0-4048-9478-7b49e70160bc")
+		)
+		(pin "11"
+			(uuid "88c43ac0-77f5-4bd2-8c2b-3d51afe0d410")
+		)
+		(pin "4"
+			(uuid "f0ebaaf1-e499-4373-9e36-56b7091c1fa8")
+		)
+		(pin "12"
+			(uuid "71879266-a489-4757-8476-66f4bc6fd9fe")
+		)
+		(instances
+			(project "circuit_design"
+				(path "/936cfab9-3290-4713-92ea-50f992466908"
+					(reference "DD1")
+					(unit 4)
 				)
 			)
 		)
