@@ -6,4 +6,5 @@
   (lib (name "Pr4")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr4/Pr4.kicad_sym")(options "")(descr ""))
   (lib (name "Pr5")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr5/Pr5.kicad_sym")(options "")(descr ""))
   (lib (name "Pr6")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr6/Pr6.kicad_sym")(options "")(descr ""))
+  (lib (name "pr7")(type "KiCad")(uri "${KIPRJMOD}/lib/pr7/pr7.kicad_sym")(options "")(descr ""))
 )
