@@ -434,8 +434,8 @@
       "Pr4",
       "Pr5",
       "Pr6",
-      "Pr8",
-      "Pr7"
+      "Pr7",
+      "pr8"
     ],
     "pinned_symbol_libs": [
       "My_Library",
@@ -444,7 +444,8 @@
       "Pr4",
       "Pr5",
       "Pr6",
-      "pr7"
+      "pr7",
+      "Pr8"
     ]
   },
   "meta": {

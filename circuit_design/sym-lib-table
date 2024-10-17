@@ -7,4 +7,6 @@
   (lib (name "Pr5")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr5/Pr5.kicad_sym")(options "")(descr ""))
   (lib (name "Pr6")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr6/Pr6.kicad_sym")(options "")(descr ""))
   (lib (name "pr7")(type "KiCad")(uri "${KIPRJMOD}/lib/pr7/pr7.kicad_sym")(options "")(descr ""))
+  (lib (name "Pr8")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr8/Pr8.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-10-17_19-33-59")(type "KiCad")(uri "${KIPRJMOD}/lib/pr7/8/2024-10-17_19-33-59.kicad_sym")(options "")(descr ""))
 )

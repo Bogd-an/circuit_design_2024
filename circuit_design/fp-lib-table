@@ -8,4 +8,6 @@
   (lib (name "Pr6")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr6/Pr6.pretty")(options "")(descr ""))
   (lib (name "Pr8")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr8.pretty")(options "")(descr ""))
   (lib (name "Pr7")(type "KiCad")(uri "${KIPRJMOD}/lib/pr7/Pr7.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/pr7/8/footprints.pretty")(options "")(descr ""))
+  (lib (name "pr8")(type "KiCad")(uri "${KIPRJMOD}/lib/Pr8/pr8.pretty")(options "")(descr ""))
 )
