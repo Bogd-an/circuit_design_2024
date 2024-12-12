@@ -9,3 +9,6 @@
 5. [NE555                 ](doc/computer_practical/5/5pr.md)
 6. [Операційні підсилювачі](doc/computer_practical/6/6pr.md)
 
+## Самостійна робота
+
+1. [ADS801](doc/independent_work/1/ср1.md)
