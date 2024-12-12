@@ -11,4 +11,4 @@
 
 ## Самостійна робота
 
-1. [ADS801](doc/independent_work/1/ср1.md)
+1. [ADS801](doc/independent_work/1/1.md)
