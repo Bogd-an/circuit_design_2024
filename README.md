@@ -12,3 +12,4 @@
 ## Самостійна робота
 
 1. [ADS801](doc/independent_work/1/1.md)
+1. [Генератор тактових імпульсів](doc/independent_work/2/2.md)
